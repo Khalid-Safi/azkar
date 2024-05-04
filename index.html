@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شامل الأذكار في الليل والنهار</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <!-- CSS File -->
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+<body>
+    <!-- START HEADER -->
+    <nav class="navbar bg-dark navbar-expand-lg fixed-top">
+        <div class="container py-3">
+          <a class="navbar-brand text-white fs-3" href="#">شامل الأذكار في الليل والنهار</a>
+          <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+          <div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav ">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fs-5 text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  الأذكار
+                </a>
+                <ul class="dropdown-menu" id="list" style="overflow-y: scroll; height: 400px; direction: rtl;">
+                  
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- END HEADER -->
+      <!-- START HADIS SLIDES -->
+      <h1 class="text-center py-4">بعض الأحاديث النبوية الشريفة</h1>
+      <div id="carouselExample" class="carousel slide bg-warning">
+        <div class="carousel-inner py-3">
+          <div class="carousel-item active">
+            <h1 class="text-primary w-100 text-center fs-4">فَإِنَّ خَيرَ الْحَديثِ كِتَابُ اللَّه، وخَيْرَ الْهَدْي هدْيُ مُحمَّدٍ ﷺ، وَشَرَّ الأُمُورِ مُحْدثَاتُهَا، وكُلَّ بِدْعَةٍ ضَلالَةٌ (رواه مسلم)</h1>
+          </div>
+          <div class="carousel-item">
+            <h1 class="text-primary w-100 text-center fs-4">روى الإمام أحمد وأصحاب السنن أن النبي صلى الله عليه وسلم قال: إن المؤمن ليدرك بحسن خلقه درجة الصائم القائم.</h1>
+          </div>
+          <div class="carousel-item">
+            <h1 class="text-primary w-100 text-center fs-4">إن من أحبكم إلي وأقربكم مني مجلسا يوم القيامة أحاسنكم أخلاقا. (رواه الترمذي)</h1>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- END HADIS SLIDES -->
+      <!-- START AZKAR ALSABAH -->
+      <section class="bg-dark py-5">
+        <div class="container">
+            <h1 class="text-center py-4 text-white" id="title">الأذكار</h1>
+            <div id="azkar" class="d-flex gap-3 flex-wrap justify-content-center"> 
+<!-- 
+              <div class="card" style="width: 300px;">
+                <span class="bg-warning text-center fs-4 py-2 text-white">أَعُوذُ بِاللهِ مِنْ الشَّيْطَانِ الرَّجِيمِ</span>
+                <div class="card-body">
+                  <h3>قراءة آية الكرسي: {الله لا إله إلا هو الحي القيوم لا تأخذه سنة ولا نوم له ما في السماوات وما في الأرض من ذا الذي يشفع عنده إلا بإذنه يعلم ما بين أيديهم وما خلفهم ولا يحيطون بشيء من علمه إلا بما شاء وسع كرسيه السماوات والأرض ولا يؤده حفظهما وهو العلي العظيم}</h3>
+                </div>
+                <span class="text-center fs-2 bg-warning">1</span>
+              </div>
+  
+
+              <div class="card" style="width: 300px;">
+                <span class="bg-warning text-center fs-4 py-2 text-white">بِسْمِ اللهِ الرَّحْمنِ الرَّحِيم</span>
+                <div class="card-body">
+                  <h3>قُلْ هُوَ ٱللَّهُ أَحَدٌ، ٱللَّهُ ٱلصَّمَدُ، لَمْ يَلِدْ وَلَمْ يُولَدْ، وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ.</h3>
+                </div>
+                <span class="text-center fs-2 bg-warning">3</span>
+              </div>
+
+              
+              <div class="card" style="width: 300px;">
+                <span class="bg-warning text-center fs-4 py-2 text-white">بِسْمِ اللهِ الرَّحْمنِ الرَّحِيم</span>
+                <div class="card-body">
+                  <h3>قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ، مِن شَرِّ مَا خَلَقَ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ، وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ.</h3>
+                </div>
+                <span class="text-center fs-2 bg-warning">3</span>
+              </div>
+              
+              
+              
+              <div class="card" style="width: 300px;">
+                <span class="bg-warning text-center fs-4 py-2 text-white">بِسْمِ اللهِ الرَّحْمنِ الرَّحِيم</span>
+                <div class="card-body">
+                  <h3>قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ، مَلِكِ ٱلنَّاسِ، إِلَٰهِ ٱلنَّاسِ، مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ، ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ، مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ. </h3>
+                </div>
+                <span class="text-center fs-2 bg-warning">3</span>
+              </div>
+              
+  
+              <div class="card" style="width: 300px;">
+                <div class="card-body">
+                  <h3>أصبحنا على فطرة الإسلام وكلِمة الإخلاص، ودين نبينا محمد صلى الله عليه وسلم، ومِلَّةِ أبينا إبراهيم، حنيفاً مسلماً، وما كان من المشركين.</h3>
+                </div>
+                <span class="text-center fs-2 bg-warning">1</span>
+              </div>
+
+              <div class="card" style="width: 300px;">
+                <div class="card-body">
+                  <h3>رضيت بالله ربا، وبالإسلام دينا، وبمحمد صلى الله عليه وسلم نبياً.</h3>
+                </div>
+                <span class="text-center fs-2 bg-warning">1</span>
+              </div>
+
+              <div class="card" style="width: 300px;">
+                <div class="card-body">
+                  <h3>اللهم إني أسألك علماً نافعاً، ورزقاً طيباً، وعملاً متقبلاً</h3>
+                </div>
+                <span class="text-center fs-2 bg-warning">1</span>
+              </div>
+               -->
+
+            </div>
+        </div>
+      </section>
+      <!-- END AZKAR ALSABAH -->
+      <!-- START FOOTER -->
+      <footer class="bg-dark p-3">
+        <p class="text-center text-white fs-4 "> أذكار وأدعية متنوعة مأخوذة من كتاب حصن المسلم للمؤلف سعيد بن علي بن وهف القحطاني</p>
+        <h1 class="text-center text-danger fs-2 ">المبرمج خالد محمد صافي اللاذقاني</h1>
+      </footer>
+      <!-- END FOOTER -->
+    <!-- Bootstrap -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JS File -->
+    <script src="./js/main.js"></script>
+</body>
+</html>
