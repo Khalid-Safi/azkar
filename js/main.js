@@ -38,6 +38,7 @@ function chooseZkr(elemid){
         <h1 class="text-center py-4 text-white" id="title">${data[elemid].category}</h1>
         
         `
+        azkarAlsabah.innerHTML = ' ';
         for(let i= 0; i< data[elemid].array.length; i++){
             azkarAlsabah.innerHTML =` <div class="card" style="width: 300px;">
             <div class="card-body">
